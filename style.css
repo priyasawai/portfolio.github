@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@100;300;400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@100;300;400;600&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+/*body{
+    background-color:palevioletred;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+   background-color:rgb(128, 123, 123);
+    width: 434px;
+    font-family: 'fira sans', sans-serif;
+    /*font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.mainp
+{
+  background-color: palevioletred;
+    width: 90vw;
+    padding: 23px;
+}
+.container
+{
+    display: flex;
+}
+.infoContainer
+{
+   /* background-color:palevioletred;*/
+    height: 50vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img
+{
+   height: 50vh;
+   border-radius: 20%;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello
+{
+  font-size:65px;
+}
+.name
+{
+ font-size: 50px;
+ font-weight: bold;
+ font-family: 'fira sans', sans-serif;
+}
+.about
+{
+ font-size: 40px;
+}
+.buttons
+{
+ margin-top: 34px;
+
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    border: 1px solid black;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 21px;
+    margin: 0.3px;
+}
+.btn-sm{
+   font-size: 10px;
+   margin-top: 30px;
+}
+.btn:hover
+{
+    background-color:white ;
+    color: dodgerblue;
+}
+.moreabout
+{
+    font-size: 32px;
+    margin-top: 32px;
+    font-family:'fira sans', sans-serif; 
+}
+.contactform 
+{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family:'fira sans', sans-serif; 
+    background-color: burlywood;
+    height: 100vh;
+    width: 100vw;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform  form div
+{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform  form div input
+{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin-right: 10px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+.blogContainer
+{
+    background-color: plum;
+    height: 100vh;
+    width: 100vw;
+}
+.blogContainer h1{
+    font-family:'fira sans', sans-serif; 
+    margin: 20px;
+}
+.blogitem {
+ margin: 20px;
+ font-family:'fira sans', sans-serif; 
+}
+.blogitem h2{
+    font-family:'fira sans', sans-serif; 
+}
+.blogitem p{
+    font-family:'fira sans', sans-serif; 
+}
+.intro{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+.intro h2{
+    font-family:'fira sans', sans-serif; 
+    margin: 12px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro p{
+    font-family:'fira sans', sans-serif; 
+    margin :12px;
+    font-size: 30px;
+}
+.skillContainer
+{
+    padding: 12px;
+    padding-left: 10px;
+}
+.skillitem
+{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hundred
+{
+    width: 265px;
+    background-color:blue;
+}
+.fifty
+{
+    background-color: aqua;
+    width: 125px;
+}
+.t5
+{
+    background-color: yellow;
+    width: 75px;
+}
+.skill
+{
+    width: 265px;
+    height: 6px;
+    font-weight: bold;
+background-color: red;
+border: 2px solid black;
+
+}
+@media(max-width:1200px)
+{
+    *{
+       background-color: brown;
+    }
+    .sidebar{
+        transform: translate(443px,0px);
+        position: absolute;
+    }
+}
+/*.sidebargo
+{
+ 
+    transform: translate(443px,0px);
+    position: absolute;   
+}*/
+.hamburger
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+
+    width: 40px;
+    height: 40px;
+}
+.cross
+{
+ margin-left: 280px;
+    width: 40px;
+    height: 40px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container h3{
+  font-size: 100px;
+  margin-bottom: 30px;
+  color:green;
+}
+.serviceitem
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.item{
+   font-size: 60px;
+   color: red;
+}
+.item p{
+    font-size:30px ;
+    padding:20px 10px;
+    margin-left: 10px;
+    color:black;
+
+}
+.services
+{
+    background-color: palegreen;
+    height: 100vh;
+}
